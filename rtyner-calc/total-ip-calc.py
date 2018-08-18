@@ -8,7 +8,7 @@ with open(in_file,'r') as i:
     lines = i.readlines()
     for line in lines:
         ip = IPNetwork(line)
-        print(ip.size)
+        x += ip.size
         
         
 # testing some shit here
