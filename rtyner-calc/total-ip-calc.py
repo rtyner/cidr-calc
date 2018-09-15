@@ -10,7 +10,6 @@ with open(in_file,'r') as i:
         ip = IPNetwork(line)
         x += ip.size
         
-        
 # testing some shit here
         #ip_size = []
         #ip_size.append(ip.size)
